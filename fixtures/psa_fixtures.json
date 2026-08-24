@@ -1,0 +1,24 @@
+{
+  "note": "Hand-computed PSA benchmark fixtures. Formulas: CPR(age) = min(age, 30) * 0.002 * (psa / 100); SMM = 1 - (1 - CPR)^(1/12). Source: PSA standard prepayment benchmark as published in open literature, e.g. Fabozzi, 'Bond Markets, Analysis, and Strategies', mortgage pass-through securities chapter (the month-5 SMM of 0.000837 and month-30 SMM of 0.005143 at 100 PSA are the worked textbook values). Computed to 12 decimal places independently of the library code.",
+  "fixtures": [
+    {"psa": 100, "age": 1, "cpr": 0.002, "smm": 0.000166819640},
+    {"psa": 100, "age": 5, "cpr": 0.010, "smm": 0.000837177359},
+    {"psa": 100, "age": 14, "cpr": 0.028, "smm": 0.002363824633},
+    {"psa": 100, "age": 20, "cpr": 0.040, "smm": 0.003396053199},
+    {"psa": 100, "age": 30, "cpr": 0.060, "smm": 0.005143012832},
+    {"psa": 100, "age": 60, "cpr": 0.060, "smm": 0.005143012832},
+    {"psa": 100, "age": 360, "cpr": 0.060, "smm": 0.005143012832},
+    {"psa": 150, "age": 1, "cpr": 0.003, "smm": 0.000250344410},
+    {"psa": 150, "age": 5, "cpr": 0.015, "smm": 0.001258677018},
+    {"psa": 150, "age": 14, "cpr": 0.042, "smm": 0.003569240149},
+    {"psa": 150, "age": 20, "cpr": 0.060, "smm": 0.005143012832},
+    {"psa": 150, "age": 30, "cpr": 0.090, "smm": 0.007828420342},
+    {"psa": 150, "age": 60, "cpr": 0.090, "smm": 0.007828420342},
+    {"psa": 200, "age": 1, "cpr": 0.004, "smm": 0.000333946011},
+    {"psa": 200, "age": 5, "cpr": 0.020, "smm": 0.001682142553},
+    {"psa": 200, "age": 14, "cpr": 0.056, "smm": 0.004790912859},
+    {"psa": 200, "age": 20, "cpr": 0.080, "smm": 0.006924382628},
+    {"psa": 200, "age": 30, "cpr": 0.120, "smm": 0.010596241035},
+    {"psa": 200, "age": 60, "cpr": 0.120, "smm": 0.010596241035}
+  ]
+}
