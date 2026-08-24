@@ -1,0 +1,48 @@
+{
+  "run_utc": "2026-08-24T22:08:41Z",
+  "platform": "macOS-26.4.1-arm64-arm-64bit",
+  "python": "3.9.6",
+  "numpy": "2.0.2",
+  "annuity": {
+    "grid_combos": 104,
+    "max_closed_form_residual_dollars": 0.0,
+    "cent_schedule_conservation_violations": 0,
+    "max_final_payment_adjustment_cents": 5005
+  },
+  "psa": {
+    "fixture_count": 19,
+    "max_cpr_abs_error": 0.0,
+    "max_smm_abs_error": 4.832106936802916e-13
+  },
+  "pool": {
+    "n_loans": 5000,
+    "seed": 20260817,
+    "initial_balance_dollars": 1365965009.3899999,
+    "horizon_months": 360,
+    "conservation_violations_at_half_cent": 0,
+    "max_per_loan_conservation_error_dollars": 9.313225746154785e-10,
+    "final_pool_balance_dollars": 0.0,
+    "wal_years_psa100": 6.386873066655031,
+    "wal_oracle_years": 6.386873066655034,
+    "wal_abs_diff_years": 2.6645352591003757e-15,
+    "wal_years_psa0": 11.832524158030807,
+    "wal_years_psa300": 3.9002613072302648
+  },
+  "rollrates": {
+    "seed": 20260817,
+    "max_iterative_vs_matrix_power_deviation": 1.7763568394002505e-15,
+    "monte_carlo_loans": 200000,
+    "monte_carlo_horizon_months": 24,
+    "max_monte_carlo_vs_analytic_deviation": 0.0005566040447926024,
+    "lifetime_default_rate_analytic": 1.0,
+    "lifetime_default_rate_iterated_20000m": 1.0,
+    "lifetime_default_abs_diff": 0.0,
+    "default_share_at_horizon_months": {
+      "12": 0.021092569493564875,
+      "60": 0.1808653723497568,
+      "120": 0.34488057207689554,
+      "360": 0.7319713292777695
+    }
+  },
+  "elapsed_sec": 0.14
+}

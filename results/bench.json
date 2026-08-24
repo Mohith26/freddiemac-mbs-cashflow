@@ -1,0 +1,22 @@
+{
+  "run_utc": "2026-08-24T22:07:41Z",
+  "platform": "macOS-26.4.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "reps": 7,
+  "n_loans": 5000,
+  "horizon_months": 360,
+  "loan_months_per_projection": 1800000,
+  "times_sec": [
+    0.0075,
+    0.0077,
+    0.0075,
+    0.0075,
+    0.0076,
+    0.0075,
+    0.0074
+  ],
+  "median_sec": 0.0075,
+  "best_sec": 0.0074,
+  "loan_months_per_sec_median": 239020018,
+  "loan_months_per_sec_best": 241957175
+}
