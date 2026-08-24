@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.coverage.run]
+source = ["poolflow"]
+
+[tool.coverage.report]
+show_missing = true
+precision = 1
